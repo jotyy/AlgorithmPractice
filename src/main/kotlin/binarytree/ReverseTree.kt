@@ -16,7 +16,7 @@ class TreeNode (var `val`: Int){
 }
 
 class ReverseTree {
-    fun invertTree(root: TreeNode?): TreeNode? {
+    private fun invertTree(root: TreeNode?): TreeNode? {
         root?.let {
             val tmp = root.right
             root.right = root.left
