@@ -1,6 +1,8 @@
 package binarytree
 
 /**
+ * 101.二叉树最小深度
+ *
  * Example:
  * var ti = TreeNode(5)
  * var v = ti.`val`
@@ -10,7 +12,7 @@ package binarytree
  *     var right: TreeNode? = null
  * }
  */
-class TreeDepth {
+class TreeMinDepth {
     /**
      * 深度优先搜索
      */
